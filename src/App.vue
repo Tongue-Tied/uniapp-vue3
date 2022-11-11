@@ -16,5 +16,5 @@ export default {
 /*每个页面公共css */
 </style>
 <style lang="scss">
-	@import "vk-uview-ui/index.scss";
+    @import "uview-plus/index.scss";
 </style>
