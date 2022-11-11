@@ -7,7 +7,7 @@
     "transformPx" : false,
     "app-plus" : {
         "usingComponents" : true,
-        "nvueStyleCompiler" : "uni-app",
+        "nvueStyleCompiler" : "",
         "compilerVersion" : 3,
         "splashscreen" : {
             "alwaysShowBeforeRender" : true,

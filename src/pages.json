@@ -3,14 +3,21 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				// "navigationBarTitleText": "uni-app"
 			}
 		}
 	],
 	"globalStyle": {
+		"navigationStyle":"custom",
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "娇娇专属",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u-(.*)": "vk-uview-ui/components/u-$1/u-$1.vue"
+		}
 	}
 }

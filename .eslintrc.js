@@ -21,6 +21,7 @@ module.exports = {
         "vue"
     ],
     "rules": {
+        'vue/comment-directive': 'off',
         'vue/multi-word-component-names': 'off',
         'no-useless-escape': 'off',
         'comma-dangle': 2,
